@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestServiceClient {
 
     @Test
-    public void testswapiJSON() throws Exception {
+    public void testpetsJSON() throws Exception {
         Client client = ClientBuilder.newClient();
         WebTarget target =
                 client.target("https://petstore.swagger.io/v2/pet/1");
